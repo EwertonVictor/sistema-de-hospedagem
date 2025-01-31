@@ -22,7 +22,7 @@ class MySQLDatabase:
                 host=self._host,
                 database=self._database
             )
-            # print("Conexão estabelecida com sucesso.")
+            print("Conexão estabelecida com sucesso.")
         except mysql_connector.Error as err:
             print(f"Erro ao conectar ao banco de dados: {err}")
             self._conn = None
@@ -49,7 +49,7 @@ class MySQLDatabase:
                            );
                            """)
             self._conn.commit()
-            # print("Tabela 'hospedes' verificada/criada com sucesso!")
+            print("Tabela 'hospedes' verificada/criada com sucesso!")
         except mysql_connector.Error as e:
             print(f"Erro ao criar/verificar a tabela hospedes: {e}")
         finally:
