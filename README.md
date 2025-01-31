@@ -9,7 +9,7 @@ Baixe os arquivos necessários, precisaremos configurar nosso ambiente virtual p
 
     Windows: ``venv/Script/activate``<br>Linux: ``source venv/bin/activate``
 
-    <br>Observação: em alguns caso ao tentar ativar o venv pode gerar um erro, não irei abordar sobre isso neste readme. Porém, veja como solucionar neste [Link](https://cursos.alura.com.br/forum/topico-bug-mensagem-de-erro-ao-tentar-ativar-o-venv-347661)
+    <br>Observação: em alguns casos ao tentar ativar o venv no windows pode gerar um erro, não irei abordar sobre isso neste readme. Porém, veja como solucionar neste [Link](https://cursos.alura.com.br/forum/topico-bug-mensagem-de-erro-ao-tentar-ativar-o-venv-347661)
 
 3. Instale as bibliotecas necessárias para a conexão do banco de dados.
    <br>``pip install -r requirements.txt``
